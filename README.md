@@ -5,7 +5,7 @@ It utilizes **Sentinel-2 satellite imagery** processed via the **Google Earth En
 
 
 
-## 🚀 Overview
+##  Overview
 The project automates the transition from raw satellite data to a localized, classified GeoTIFF map. By combining spectral bands with calculated indices, 
 the model distinguishes between natural and man-made features with high accuracy.
 
@@ -55,4 +55,5 @@ $$\text{Area (ha)} = \frac{\text{Pixel Count} \times 100}{10,000}$$
 ├── geojson/                                  # Training labels (point data)
 ├── sampled_data/                             # Extracted spectral values
 ├── raster/                                   # Output GeoTIFF classification
+
 └── README.md                                 # Project documentation
